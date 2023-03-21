@@ -1,0 +1,160 @@
+.box {
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+#Imm {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.box:hover .imgBx {
+    transform: translateY(-130px);
+}
+
+.box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 2;
+    background-color: #1d1d1d;
+}
+
+.box .details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.box .details h2 {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.box .details h3 {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #8f8f8f;
+}
+
+.box:hover .imgBx img {
+    opacity: 0.7;
+}
+
+.box .imgBx img {
+    transition: 0.6s;
+    width: 100%;
+}
+
+.box .social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.box .social-icon li {
+    list-style: none;
+}
+
+.box .social-icon li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #1d1d1d;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateY(150px);
+    opacity: 1;
+}
+
+.box .social-icon li a .i {
+    font-size: 32px;
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+.box .social-icon li a:hover .i {
+    transform: rotateY(360deg);
+}
+
+.box:hover .social-icon li a {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.box:hover .social-icon li:nth-child(1) a {
+    transition-delay: 0s;
+}
+
+.box:hover .social-icon li:nth-child(2) a {
+    transition-delay: 0.2s;
+}
+
+.box:hover .social-icon li:nth-child(3) a {
+    transition-delay: 0.4s;
+}
+
+.box:hover .social-icon li:nth-child(4) a {
+    transition-delay: 0.6s;
+}
+
+.login-box {
+   
+    
+    background: black;
+    box-shadow: rgb(32, 32, 32) 30px 30px 16px;
+   color: aliceblue;
+    border-radius: 30px;
+  }
+  .ruthome{
+    color: #fff;
+  }
+  .shodw{
+    text-shadow: rgb(32, 32, 32) 20px 30px 10px;
+  }
+/* .rowhome {
+  gap: 10px;
+} */
+
+
+.p-tag{
+    margin: 0;
+    
+}
+
+.dettagli{
+    
+    margin-bottom: 0;
+}

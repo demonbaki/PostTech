@@ -1,0 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap';
+@import './style.css';
+@import './spinner.css';
+@import './card.css';
+@import './cookie.css';
